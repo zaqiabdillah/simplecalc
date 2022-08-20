@@ -9,7 +9,7 @@
             let value = e.target.dataset.num
             screen.value += value;
         })
-        });
+       });
 
     equal.addEventListener('click', function(e){
         if(screen.value===''){
@@ -23,4 +23,4 @@
     clear.addEventListener('click',function(e){
         screen.value="";
     })
-});
+})();
